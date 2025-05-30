@@ -1,0 +1,10 @@
+erDiagram
+    Student ||--o{ Enrollment : enroll
+    Course ||--o{ Enrollment : enrolls
+    Enrollment ||--|| Report : generates
+    Student {string name}
+    Student {int id}
+    Course {string title}
+    Course {string code}
+    Enrollment {date enrollment_date}
+    Report {int participation_count}
