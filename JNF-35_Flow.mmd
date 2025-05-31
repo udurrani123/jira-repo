@@ -1,0 +1,9 @@
+%%{ init : {'themeVariables': {'primaryColor': '#ffcc00', 'edgeColor': '#99ccff','borderRadius': 5}} }%%
+
+flowchart TD
+    A[Start] --> B[Service Request Management]
+    B --> C{Is the request valid?}
+    C -->|Yes| D[Process the request]
+    C -->|No| E[Notify user]
+    D --> F[Complete]
+    E --> F
