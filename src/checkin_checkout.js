@@ -4,7 +4,7 @@ class CheckInCheckOut {
     constructor() {
         this.records = {};
     }
-
+//a New comment here
     checkIn(name) {
         const timestamp = new Date();
         this.records[name] = {
