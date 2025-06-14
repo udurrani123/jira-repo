@@ -4,7 +4,7 @@ class UserAuth {
     constructor() {
         this.users = {};
     }
-
+//some comments here
     register(username, password) {
         if(this.users[username]) {
             console.log('User already exists.');
