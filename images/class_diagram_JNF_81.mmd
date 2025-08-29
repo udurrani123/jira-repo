@@ -1,0 +1,27 @@
+```mermaid
+classDiagram
+    class User {
+        -userId: int
+        -username: string
+        -password: string
+        -email: string
+    }
+    class Admin {
+    }
+    class Coach {
+    }
+    class Player {
+    }
+    class Parent {
+    }
+    class Role {
+        -roleName: string
+        -permissions: string
+    }
+
+    User <|-- Admin
+    User <|-- Coach
+    User <|-- Player
+    User <|-- Parent
+    User "1" -- "1" Role : has
+```
