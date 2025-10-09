@@ -1,0 +1,1 @@
+// Placeholder for generated Java code for JNF-157. Waiting for JIRA issue details to generate the appropriate code.
